@@ -1,0 +1,30 @@
+{
+    "name": "kof-labs/kof",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "keywords": [
+        "kof"
+    ],
+    "authors": [
+        {
+            "name": "kof",
+            "email": "kof@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "phpunit/dbunit": "^2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "KOF": "src"
+        }
+    }
+}
